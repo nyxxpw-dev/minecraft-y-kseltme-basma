@@ -1,0 +1,32 @@
+settings:
+  prefix: "§6§l[Demirci] §7"
+  broadcast-min-level: 7
+
+# +3'den sonra istenen materyaller (+4 basarken başlar)
+# Format: "EŞYA_ADI:MİKTAR"
+requirements:
+  level-3: "IRON_INGOT:5"
+  level-4: "IRON_BLOCK:1"
+  level-5: "IRON_BLOCK:3"
+  level-6: "GOLD_BLOCK:2"
+  level-7: "DIAMOND_BLOCK:2"
+  level-8: "NETHERITE_INGOT:1"
+
+# Başarı Şansları (%)
+chances:
+  level-0: 100
+  level-1: 90
+  level-2: 80
+  level-3: 60
+  level-4: 50
+  level-5: 35
+  level-6: 25
+  level-7: 12
+  level-8: 3
+
+messages:
+  success: "§a§lBAŞARILI! §7Eşyanın kalitesi arttı."
+  fail-destroy: "§c§lBOOM! §7Eşya demirci ocağında kül oldu..."
+  fail-downgrade: "§e§lBAŞARISIZ! §7Eşyanın seviyesi düştü."
+  no-material: "§cHata: §7Gerekli malzemelerin eksik!"
+  broadcast: "§6§l[DUYURU] §e%player% §7eşyasını §b+%level% §7seviyesine yükseltti!"
